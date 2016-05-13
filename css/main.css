@@ -1,0 +1,63 @@
+* {
+  outline: none;
+}
+
+body {
+  font-family: 'Quattrocento', serif;
+  font-size: 20px;
+  text-align: center;
+  background: #fefbf7;
+  color: #36454f;
+  margin: 3em;
+}
+
+strong {
+  text-decoration: underline;
+}
+
+button {
+  background: #556d7c;
+  color: #36454f;
+  border: none;
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 1.2em;
+  font-family: 'Quattrocento', serif;
+}
+
+button:active {
+  background: #556d7c;
+}
+
+.scoreboard {
+  width: 14em;
+  margin: auto;
+  border: 1px solid #556d7c;
+  background-color: #d8e0e4;
+}
+.scoreboard h2 {
+  border-bottom: 1px solid #556d7c;
+  margin: 0;
+  padding: 10px;
+}
+.scoreboard table {
+  margin: 10px auto;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #d8e0e4;
+}
+.scoreboard th, .scoreboard td {
+  text-align: center;
+}
+.scoreboard td {
+  font-size: 3em;
+  padding: 0 20px;
+}
+
+#status {
+  margin-top: 20px;
+}
+
+#computerSelect {
+  margin-top: 10px;
+}
